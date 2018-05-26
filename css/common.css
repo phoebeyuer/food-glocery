@@ -1,0 +1,97 @@
+/* 居中容器 */
+.mid-container{
+     display:relative;
+	 margin:0 auto;
+}
+/* 公共头样式 */
+.public-header{
+	background:#fff;
+	padding-left:200px;
+	padding-right:200px;
+	height:110px;
+}
+
+.public-header .header-logo{
+	float:left;
+	margin-top:40px;
+	width:180px;
+	height:54px;
+	background:url("../images/logo.png");
+}
+
+.public-header .header-nav{
+	float:right;
+	margin-top:44px;
+	font-size:14px;
+	/* color:#3b3b3b; */
+}
+
+.public-header .header-nav a{
+	color:#3b3b3b;
+}
+
+.public-header .header-nav a:hover{
+	text-decoration:underline;
+}
+
+.public-header .header-nav .nav-item{
+	float:left;
+	margin-left:50px;
+}
+
+/* banner样式 */
+.index-banner{
+	position:relative;
+	background:#b3b3b3;
+}
+
+.index-banner-bg{
+	height:570px; 
+	overflow:hidden;
+}
+
+.index-banner-text{
+	position:absolute;
+	top:200px;
+	left:50%;
+	margin-left:-388px;
+}
+
+.banner-image .img{
+	margin:0 auto;
+    width:760px;
+    height:116px;	 
+}
+
+.index-banner-text .text-info{
+	margin:0 auto;
+	font-size:14px;
+	color:#ffffff;
+}
+
+/* 公共尾样式 */
+.public-footer{
+	background:#3b3b3b;
+    padding-left:200px;
+	padding-right:200px;
+	height:317px;
+}
+
+.public-footer .footer-nav{
+	float:left;
+	margin-top:100px;
+	width:230px;
+	padding-right:60px;
+	font-size:14px;
+	color:#ffffff;
+	line-height:1.8;
+}
+
+.public-footer .footer-nav4{
+	float:right;
+	margin-top:86px;
+	padding-right:34px;
+	font-size:14px;
+	line-height:1.8;
+	color:#ffffff;
+}

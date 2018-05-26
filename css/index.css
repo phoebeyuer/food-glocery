@@ -1,0 +1,266 @@
+/* banner样式 */
+.index-banner{
+	position:relative;
+	height:570px; 
+	width:1500px;
+	left:50%;
+	margin-left:-750px;
+	background:#b3b3b3;
+}
+
+.index-banner-bg{
+	height:570px; 
+	width:1500px;
+	overflow:hidden;
+}
+
+.index-banner-bg img{
+	margin:0 auto;
+}
+
+.index-banner-text{
+	position:absolute;
+	top:200px;
+	left:50%;
+	margin-left:-388px;
+}
+
+
+.index-banner-text .text-info{
+	margin-top:17px;
+	text-align:center;
+	font-size:14px;
+	color:#ffffff;
+}
+
+.index-banner-text .line{
+	display:inline-block;
+	width:40px;
+	border-top:1px solid #ffffff;
+	vertical-align:middle;
+}
+
+.index-banner-text .text-info-text{
+	margin:0 26px;
+}
+
+/* Menu菜单logo样式 */
+.index-menu{
+	position:relative;
+	border-top:4px solid #f34943;
+}
+
+.index-menu .index-menu-title{
+	position:relative;
+	left:50%;
+	top:0px;
+	width:156px;
+	height:75px;
+	margin-left:-78px;
+	background:#f34943;
+	color:#ffffff;
+	line-height:65px;
+	text-align:center;
+}
+
+.index-menu .index-menu-title:after{
+	position:absolute;
+	content:'';
+	left:0;
+	bottom:0;
+	width:0;
+	height:0;
+	border-left:78px solid transparent;
+	border-right:78px solid transparent;
+	border-bottom:10px solid #ffffff;
+}
+
+/* Menulist菜单列表样式 */
+.index-menu-list{
+	margin-top:152px;
+	width:
+    color:#555;
+	overflow:hidden;
+}
+
+.index-menu-list ul{
+	margin-left:200px;
+	width:1220px;
+}
+
+.menu-item .list-material{
+	float:left;
+	margin-top:4px;
+	font-size:12px;
+	color:#bdbdbc;
+}
+
+.list-item,.list-line{
+	float:left;
+}
+
+.list-item{
+	width:230px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:elipsis;
+}
+
+.list-line{
+	width:192px;
+	margin-top:10px;
+	border-top:1px solid #e3e1e1;
+}
+
+.menu-item{
+	float:left;
+	width:500px;
+	margin-bottom:62px;
+	margin-right:110px;
+	/* padding-right:28px; */
+}
+
+.list-price{
+	float:right;
+}
+
+/* Menu“点击获取更多”样式 */
+.menu-btn-more{
+	position:relative;
+	left:50%;
+	margin-left:-65px;
+	width:114px;
+	height:32px;
+    border:1px solid #d7d5d5;	
+	padding-left:14px;
+	font-size:14px;
+	line-height:32px;
+	color:#d7d5d5;
+}
+
+.menu-btn-more .icon{
+	display:inline-block;
+    width:11px;
+	height:7px;
+	top:13px;
+	margin-left:11px;
+	background:url("../images/icon.png");
+	}
+	
+/* 菜单图片展示面板样式 */
+.index-pannel-header{
+	margin-top:200px;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.index-pannel-header h3{
+	float:left;
+	font-size:20px;
+	color:#414141;
+}
+
+.pannel-line{
+	float:left;
+	margin-top:14px;
+	width:200px;
+	margin-left:20px;
+	border-top:1px solid #f6f6f6;
+}
+
+.btn-group{
+	font-size:0;
+	float:right;
+}
+
+.btn-group .pannel-btn{
+	display:inline-block;
+	margin-right:11px;
+	width:9px;
+	height:9px;
+	background:#dedede;
+	border-radius:50%;
+}
+
+.index-pannel-header .active{
+	background:#9b9b9b;
+}
+
+.index-pannel-body{
+	margin-top:75px;
+	width:1160px;
+	margin-left:200px;
+	/* margin-left:200px; */
+	/* margin-right:200px; */
+}
+
+.food-item{
+	float:left;
+	width:230px;
+	margin-right:60px;
+}
+
+.food-name{
+	margin-top:28px;
+	color:#bebebe;
+}
+
+.food-price{
+	margin-top:28px;
+	margin-left:70px;
+	color:#bebebe;
+}
+
+.star-group{
+	font-size:0;
+    margin-top:10px;
+}
+
+.star{
+	display:inline-block;
+	margin-right:6px;
+	width:11px;
+	height:11px;
+	background:url("../images/star.png");
+	background-repeat:no-repeat;
+}
+
+.no-star{
+	background-position:0 -16px;    /*星星图片向上移动16像素 */
+}
+
+/* 菜品图片展示样式 */
+.index-pannel2{
+	margin-top:547px;
+}
+
+.pannel-col{
+	padding-top:75px;
+	margin-left:200px;
+	margin-right:200px;
+	height:380px;
+	overflow:hidden;
+}
+
+.pannel-col-c{
+	float:left;
+}
+
+.pannel-col-m{
+	width:353px;
+}
+
+.pannel-col-s{
+	width:287px;
+}
+
+.pannel-col-s img{             /*html5去白边方法，在div或img内加入此段代码，白边产生原因是因为有基线，将起变为块级元素可完美解决*/
+	vertical-align:bottom;
+	display:block;
+}
+
+.pannel-col-l{
+	width:460px;
+}
+
+
